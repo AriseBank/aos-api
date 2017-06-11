@@ -246,6 +246,89 @@ Always make sure you're working on a secure environment!
 <td>---</td>
 </tr>
 </tbody></table>
+        
+<h1 id="aEX">aTransfer</h1>
+
+<h2 id="aEX">aTransfer Introduction</h2>
+        <p>The aTransfer API will be available three weeks before the launch of the aOS platform - August 21st, 2017</p>
+<pre class="highlight ruby"><code><span class="nb">coming </span> <span class="s1">'soon'</span>
+</code></pre>
+<pre class="highlight python"><code><span class="kn">coming</span> <span class="nn">soon</span>
+
+</code></pre>
+<pre class="highlight shell"><code>curl <span class="s2">"https://nodes.arisebank.com/api/aTransfer"</span>
+  -H <span class="s2">"aOSAPIKey: ariseapikey"</span>
+  -H <span class="s2">"aOSSecretKey: arisesecretkey"</span>
+</code></pre>
+
+<p>This endpoint retrieves all aTransfer related api data..</p>
+
+<h3 id="http-request">HTTP Request</h3>
+
+<p><code class="prettyprint">GET https://nodes.arisebank.com/api/aTransfer</code></p>
+
+<h3 id="query-parameters">Query Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>----</td>
+<td>----</td>
+<td>----</td>
+</tr>
+<tr>
+<td>----</td>
+<td>----</td>
+<td>----</td>
+</tr>
+</tbody></table>
+
+<aside class="success">
+Always make sure you're working on a secure environment!
+</aside>
+
+<h2 id="aEX-crypto-to-fiat-value">Transfers By Currency</h2>
+<pre class="highlight ruby">
+
+<blockquote>
+<p>Examples will appear here when API is launched to the public. </p>
+</blockquote></pre>
+<pre class="highlight python">
+<blockquote>
+<p>Examples will appear here when API is launched to the public. </p>
+</blockquote> </pre>
+<pre class="highlight shell">
+<blockquote>
+<p>Examples will appear here when API is launched to the public. </p>
+</blockquote>
+</pre>
+
+<p>This endpoint retrieves peer-to-peer transfer data by currency from our aTransfer system within our aOS banking system. Transfer data can be sorted by date, identifier and other parameters. </p>
+
+<aside class="warning">Do not access the API data more than once every 60 seconds or your developer keys could get banned by our network security admins.</aside>
+
+<h3 id="http-request">HTTP Request</h3>
+
+<p><code class="prettyprint">GET https://nodes.arisebank.com/api/aEX/TbC/</code></p>
+
+<h3 id="url-parameters">URL Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>---</td>
+<td>---</td>
+</tr>
+</tbody></table>
 
           <h1 id="errors">Errors</h1>
 
